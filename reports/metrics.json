@@ -1,0 +1,32 @@
+{
+  "final_model": "xgboost",
+  "strategy": "none",
+  "threshold": 0.18000000000000002,
+  "cost_fn": 5.0,
+  "cost_fp": 1.0,
+  "test_at_chosen_threshold": {
+    "threshold": 0.18,
+    "precision": 0.7074592074592074,
+    "recall": 0.8561354019746121,
+    "f1": 0.774728781110402,
+    "pr_auc": 0.9117655738267992,
+    "roc_auc": 0.9523860453612658,
+    "tn": 4562,
+    "fp": 502,
+    "fn": 204,
+    "tp": 1214,
+    "cost": 1522.0
+  },
+  "clean_report": {
+    "rows_raw": 32581,
+    "dropped_bad_target": 0,
+    "dropped_outliers": 7,
+    "dropped_duplicates": 165,
+    "rows_clean": 32409,
+    "default_rate": 0.2187,
+    "missing": {
+      "person_emp_length": 887,
+      "loan_int_rate": 3094
+    }
+  }
+}

@@ -1,0 +1,4 @@
+model,strategy,threshold,precision,recall,f1,pr_auc,roc_auc,tn,fp,fn,tp,cost
+Logistic Regression,none,0.24,0.5614,0.7736,0.6507,0.7182,0.8703,4207,857,321,1097,2462.0
+Random Forest,none,0.17,0.6422,0.8378,0.7271,0.889,0.9336,4402,662,230,1188,1812.0
+XGBoost,none,0.18,0.7075,0.8561,0.7747,0.9118,0.9524,4562,502,204,1214,1522.0
